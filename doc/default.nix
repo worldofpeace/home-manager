@@ -1,7 +1,7 @@
 nixpkgs:
 {
 # Note, this should be "the standard library" + HM extensions.
-, lib ? import ../modules/lib/stdlib-extended.nix pkgs.lib }:
+pkgs, lib ? import ../modules/lib/stdlib-extended.nix pkgs.lib }:
 
 let
 
